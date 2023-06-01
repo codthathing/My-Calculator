@@ -1,0 +1,380 @@
+@media all and (max-width: 1023px) and (min-width: 768px) {
+        
+    #head {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 2.5rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+        letter-spacing: 0.5rem;
+        animation: logo-design 500ms linear infinite normal;
+        -moz-animation: logo-design 500ms linear infinite normal;
+        -webkit-animation: logo-design 500ms linear infinite normal;
+        -o-animation: logo-design 500ms linear infinite normal;
+        -ms-animation: logo-design 500ms linear infinite normal;
+    }
+
+    @keyframes logo-design {
+        from{color: black;}
+        to{color: blue;}
+    }
+
+    div input {
+        width: 100%;
+        box-sizing: border-box;
+        height: 5rem;
+        font-size: 2.5rem;
+        border: black 1px solid;
+        text-align: right;
+        outline: none;
+    }
+
+   /*This is the beginning of the styling of the functional buttons*/
+   .cal-btn {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
+       grid-gap: 0.2rem 0;
+       justify-content: center;
+       padding: 0;
+       margin: 2rem 0;
+   }
+       
+   .func-btn {
+       transition: all 300ms ease-in-out;
+       -o-transition: all 300ms ease-in-out;
+       -moz-transition: all 300ms ease-in-out;
+       -moz-transition: all 300ms ease-in-out;
+       -webkit-transition: all 300ms ease-in-out;
+       box-shadow: 4px 4px 3px black;
+       background-color: blue;
+       font-weight: bold;
+       font-size: 3rem;
+       margin-left: 1.1rem;
+       border: hidden;
+       border-radius: 0.5rem;
+       outline: none;
+       color: black;
+       width: 8rem;
+       height: 4rem;
+       margin-bottom: 1rem;
+   }
+   
+   .func-btn:hover {
+       transform: scale(1.06, 1.06);
+       -o-transform: scale(1.06, 1.06);
+       -ms-transform: scale(1.06, 1.06);
+       -moz-transform: scale(1.06, 1.06);
+       -webkit-transform: scale(1.06, 1.06);
+   }
+   
+    /*This is the beginning of the styling of the numericals, equal and clear button*/
+    #param {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+    
+    #total-btn {
+        color: black;
+        background-color: blue;
+        font-weight: 600;
+        outline: none;
+    }
+
+    #clear-btn {
+        color: black;
+        background-color: blue;
+        font-weight: 600;
+        outline: none;
+    }
+    
+    .param-btn {
+        transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        color: black;
+        background-color: rgb(182, 182, 182);
+        border: hidden;
+        border-radius: 0.4rem;
+        box-shadow: 4px 4px 3px black;
+        width: 13rem;
+        height: 4.5rem;
+        outline: none;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+    
+    .param-btn:hover {
+        background-color: blue;
+        color: black;
+        transform: scale(1.06, 1.06);
+        -o-transform: scale(1.06, 1.06);
+        -ms-transform: scale(1.06, 1.06);
+        -moz-transform: scale(1.06, 1.06);
+        -webkit-transform: scale(1.06, 1.06);
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+    #head {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        animation: logo-design 500ms linear infinite normal;
+        -moz-animation: logo-design 500ms linear infinite normal;
+        -webkit-animation: logo-design 500ms linear infinite normal;
+        -o-animation: logo-design 500ms linear infinite normal;
+        -ms-animation: logo-design 500ms linear infinite normal;
+    }
+
+    @keyframes logo-design {
+        from{color: black;}
+        to{color: blue;}
+    }
+
+    div input {
+        width: 100%;
+        box-sizing: border-box;
+        height: 4rem;
+        margin-bottom: 1rem;
+        border: black 1px solid;
+        text-align: right;
+        font-size: 1rem;
+        margin: 0;
+        outline: none;
+        padding: 0;
+    }
+
+    /*This is the beginning of the styling of the functional buttons*/
+    .cal-btn {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1rem;
+        grid-gap: 1rem 0.5rem;
+        margin-left: 0.5rem; 
+    }
+        
+    .func-btn {
+        transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        box-shadow: 4px 4px 3px black;
+        background-color: blue;
+        outline: none;
+        font-weight: bold;
+        font-size: 2rem;
+        border: none;
+        border-radius: 0.5rem;
+        color: black;
+        width: 4rem;
+        height: 3.5rem;
+    }
+    
+    .func-btn:hover {
+        transform: scale(1.06, 1.06);
+        -o-transform: scale(1.06, 1.06);
+        -ms-transform: scale(1.06, 1.06);
+        -moz-transform: scale(1.06, 1.06);
+        -webkit-transform: scale(1.06, 1.06);
+    }
+
+    /*This is the beginning of the styling of the numericals, equal and clear button*/
+    #param {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        grid-gap: 0.2rem 0.5rem; 
+        padding: 0;
+        margin: 0;
+        max-width: 98%;
+    }
+    
+    #total-btn {
+        color: black;
+        background-color: blue;
+        font-weight: 600;
+        outline: none;
+    }
+
+    #clear-btn {
+        color: black;
+        background-color: blue;
+        font-weight: 600;
+        outline: none;
+    }
+    
+    .param-btn {
+        transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        color: black;
+        background-color: rgb(182, 182, 182);
+        border: hidden;
+        border-radius: 0.4rem;
+        box-shadow: 4px 4px 3px black;
+        outline: none;
+        width: 6.5rem;
+        height: 3.5rem; 
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .param-btn:hover {
+        background-color: blue;
+        color: black;
+        transform: scale(1.06, 1.06);
+        -o-transform: scale(1.06, 1.06);
+        -ms-transform: scale(1.06, 1.06);
+        -moz-transform: scale(1.06, 1.06);
+        -webkit-transform: scale(1.06, 1.06); 
+    }
+}
+
+@media all and (min-width: 1024px) {
+    #body {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+        margin-left: 26%;
+        border: 2px solid black;
+    }
+        
+    #head {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+        animation: logo-design 500ms linear infinite normal;
+        -moz-animation: logo-design 500ms linear infinite normal;
+        -webkit-animation: logo-design 500ms linear infinite normal;
+        -o-animation: logo-design 500ms linear infinite normal;
+        -ms-animation: logo-design 500ms linear infinite normal;
+    }
+
+    @keyframes logo-design {
+        from{color: black;}
+        to{color: blue;}
+    }
+
+    div input {
+        width: 100%;
+        box-sizing: border-box;
+        height: 3rem;
+        font-size: 1.5rem;
+        border: black 1px solid;
+        text-align: right;
+        outline: none;
+    }
+           
+    /*This is the beginning of the styling of the functional buttons*/
+    .cal-btn {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        grid-gap: 1rem 0.4rem;
+        width: 98%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+        
+    .func-btn {
+        transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        box-shadow: 4px 4px 3px black;
+        background-color: blue;
+        font-weight: bold;
+        font-size: 2.5rem;
+        border: none;
+        border-radius: 0.5rem;
+        color: black;
+        margin-left: 0.5rem; 
+        width: border-box;
+        height: 3rem;
+        outline: none;
+    }
+    
+    .func-btn:hover {
+        transform: scale(1.06, 1.06);
+        -o-transform: scale(1.06, 1.06);
+        -ms-transform: scale(1.06, 1.06);
+        -moz-transform: scale(1.06, 1.06);
+        -webkit-transform: scale(1.06, 1.06);
+    }
+    
+    /*This is the beginning of the styling of the numericals, equal and clear button*/
+    #param {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        grid-gap: 1rem 1rem;
+        padding: 0;
+        margin: 0;
+        max-width: 98%;
+    }
+    
+    #total-btn {
+        color: black;
+        background-color: blue;
+        font-weight: 600;
+        outline: none;
+    }
+
+    #clear-btn {
+        color: black;
+        background-color: blue;
+        font-weight: 600;
+        outline: none;
+    }
+    
+    .param-btn {
+        transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        color: black;
+        background-color: rgb(182, 182, 182);
+        border: hidden;
+        border-radius: 0.4rem;
+        box-shadow: 4px 4px 3px black;
+        margin-left: 0.5rem; 
+        margin-bottom: 1rem;
+        width: border-box;
+        height: 4rem; 
+        font-size: 2rem;
+        outline: none;
+    }
+    
+    .param-btn:hover {
+        background-color: blue;
+        color: black;
+        transform: scale(1.06, 1.06);
+        -o-transform: scale(1.06, 1.06);
+        -ms-transform: scale(1.06, 1.06);
+        -moz-transform: scale(1.06, 1.06);
+        -webkit-transform: scale(1.06, 1.06); 
+    }
+}
